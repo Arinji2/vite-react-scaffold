@@ -1,50 +1,40 @@
-# React + TypeScript + Vite
+# React Vite Scaffold (Typescript)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal scaffold for React with Vite, built for speed and simplicity.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Tailwind CSS**: Utility-first styling pre-configured.
+- **React Router DOM**: Easy-to-use routing setup.
+- **Geist Font**: Default font family integrated.
+- **SEO Ready**: Includes Open Graph and Twitter Card meta tags.
+- **Vercel Support**: Optimized for seamless deployment on Vercel.
+- **Powered by Bun**: Blazing-fast package manager and runtime.
 
-## Expanding the ESLint configuration
+## Get Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+2. Install dependencies:
+   ```bash
+   bun install
+   ```
+3. Start the development server:
+   ```bash
+   bun run dev
+   ```
+4. Open your browser and navigate to `http://localhost:5173/`.
 
-- Configure the top-level `parserOptions` property like this:
+## Deployment
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+This scaffold is optimized for deployment on Vercel. To deploy your project, follow these steps:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## License
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+This project is licensed under the MIT License.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Author
+
+Built by Arinji, check out my [website](https://arinji.com) for more projects.
