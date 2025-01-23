@@ -15,7 +15,7 @@ A minimal scaffold for React with Vite, built for speed and simplicity.
 
 1. Clone the repository:
    ```bash
-   git clone <Arinji2/vite-react-scaffold>
+   git clone https://arinji2/vite-react-scaffold
    ```
 2. Install dependencies:
    ```bash
