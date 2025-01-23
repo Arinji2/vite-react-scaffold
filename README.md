@@ -29,7 +29,7 @@ A minimal scaffold for React with Vite, built for speed and simplicity.
 
 ## Deployment
 
-This scaffold is optimized for deployment on Vercel. To deploy your project, follow these steps:
+This scaffold is optimized for deployment on Vercel.
 
 ## License
 
